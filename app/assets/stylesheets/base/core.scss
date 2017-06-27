@@ -1,0 +1,77 @@
+body {
+  color: $dark-gray;
+  font-family: $font-stack;
+  // font-weight: lighter;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0px;
+  padding: 0px
+}
+
+img{
+	max-width: 100%;
+	height: auto;
+}
+
+a {
+  color: $teal;
+  text-decoration: none;
+  font-size: 14px;
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+p, li {
+  font-size: 16px;
+  font-weight: 100;
+  font-family: $font-stack;
+}
+
+h1, h2, h3, h4 {
+  font-family: $font-stack;
+  font-weight: 400;
+  // font-weight: lighter;
+}
+
+button, input {
+  font-family: $font-stack;
+  font-weight: 400;
+  // font-weight: lighter;
+}
+
+button {
+  cursor: pointer;
+}
+
+.container {
+  max-width: 1080px;
+  margin: 0 auto;
+
+  &.con-pad {
+      padding: 0 15px;
+  }
+}
+
+.btn {
+  font-size: 18px;
+  width: 100%;
+  border: none;
+  border-radius: $border-radius;
+  padding: 14px 0;
+  margin-top: 16px;
+  color: #fff;
+  cursor: pointer;
+
+  &.teal {
+    background-color: $teal;
+  }
+
+  &.pink {
+    background-color: $pink;
+  }
+}
